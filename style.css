@@ -1,0 +1,10 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input,label,button{
+    display: block;
+    margin: 1em;
+}
