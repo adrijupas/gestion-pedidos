@@ -17,7 +17,7 @@
         $datos = mysqli_query($conexion,$consulta);
         echo '<ul>';
         while($fila = mysqli_fetch_array($datos)){
-            echo '<li>'.$fila['nombre_producto'].$fila['precio_producto']."<input type='checkbox'>".'</li>';
+            echo '<li>'.$fila['nombre_producto'].$fila['precio_producto'].'</li>';
         }
         echo '</ul>';
 
